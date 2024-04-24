@@ -1,17 +1,23 @@
 #include <stdio.h>
 
-int main() {
-    int age; 
+int main()
+{
+    int age;
 
     printf("Bonjour");
     printf("Entrez votre âge: ");
     scanf("%d", &age);
 
-    if (age < 18) {
+    if (age < 18)
+    {
         printf("Vous êtes mineur.\n");
-    } else {
+    }
+    else
+    {
         printf("Vous êtes majeur.\n");
     }
 
-    return 0; 
+    printf("A bientôt");
+
+    return 0;
 }
